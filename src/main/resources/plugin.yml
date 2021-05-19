@@ -1,0 +1,16 @@
+name: PureBalanceFormatter
+version: 0.91
+author: ZoomDK
+main: com.zoomdk.purebalanceformatter.Main
+api-version: 1.16
+depend: [ Vault ]
+commands:
+  purebalanceformatter:
+    description: PureBalanceFormatter main command
+    aliases: [pbf, pb, pf]
+  pay:
+    description: PureBalanceFormatter pay command
+  balance:
+    description: PureBalanceFormatter balance command
+    aliases: [bal, money]
+
